@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Secular+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+}
+
+header span {
+  font-family: "Luckiest Guy";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formSection span {
+  color: #000;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.formSection label {
+  color: #000;
+  font-family: "Luckiest Guy";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form input {
+  background: #c8c8c8;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 600px;
+  height: 50px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+form input[type="submit"] {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  width: 246px;
+  height: 52px;
+  color: #fff;
+
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-size: 25px;
+  font-style: normal;
+}
+
+form input[type="submit"] {
+  transition: transform 0.1s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
