@@ -23,7 +23,7 @@ Para visualizar e interagir com o projeto:
 O projeto é composto por arquivos essenciais para a sua execução e visualização:
 
 - `main.html`: Arquivo principal que contém a estrutura HTML do site.
-- `/styles/main.css`: Arquivo de estilos CSS que define a aparência do site.
+- `/css/main.css`: Arquivo de estilos CSS que define a aparência do site.
 - `/js/main.js`: Arquivo JavaScript que adiciona interatividade ao site.
 - `/img/`: Diretório que contém as imagens usadas no site, incluindo logos e ícones.
 
